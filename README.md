@@ -1,5 +1,8 @@
 # API Key Wildcard Plugin
 
+[![CI](https://github.com/markus-michalski/osticket-api-key-wildcard/workflows/CI/badge.svg)](https://github.com/markus-michalski/osticket-api-key-wildcard/actions)
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](./LICENSE)
+
 📚 **[Full Documentation & FAQ (English)](https://faq.markus-michalski.net/en/osticket/api-key-wildcard)**
 
 📚 **[Komplette Dokumentation & FAQ (Deutsch)](https://faq.markus-michalski.net/de/osticket/api-key-wildcard)**
