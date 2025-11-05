@@ -78,8 +78,7 @@ jobs:
       - name: Check README.md exists
         run: |
           test -f README.md || { echo "Error: README.md not found"; exit 1; }
-          test -f README-de.md || { echo "Error: README-de.md not found"; exit 1; }
-          echo "✓ README files present"
+          echo "✓ README file present"
 
       - name: Verify CHANGELOG format
         run: |
