@@ -16,6 +16,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Nothing yet
 
+## [1.0.1] - 2025-11-05
+
+### Changed
+- Add CI and License badges to README
+- Add GitHub Actions CI workflow
+- Add release configuration files
 ## [1.0.0] - 2025-11-05
 
 ### Added
