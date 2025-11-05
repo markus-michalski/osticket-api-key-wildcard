@@ -1,7 +1,8 @@
 # API Key Wildcard Plugin
 
-📚 **[Full Documentation & FAQ (English)](https://faq.markus-michalski.net/en/osticket/api-key-wildcard)** 
-**[📚Komplette Dokumentation & FAQ (Deutsch)](https://faq.markus-michalski.net/de/osticket/api-key-wildcard)**
+📚 **[Full Documentation & FAQ (English)](https://faq.markus-michalski.net/en/osticket/api-key-wildcard)**
+
+📚 **[Komplette Dokumentation & FAQ (Deutsch)](https://faq.markus-michalski.net/de/osticket/api-key-wildcard)**
 
 - Complete guide with troubleshooting, best practices, and advanced usage
 
@@ -90,7 +91,9 @@ curl -X POST \
 
 ## Documentation
 
-📚 **[Complete FAQ & Documentation](https://faq.markus-michalski.net/en/osticket/api-key-wildcard)**
+📚 **[Full Documentation & FAQ (English)](https://faq.markus-michalski.net/en/osticket/api-key-wildcard)**
+
+📚 **[Komplette Dokumentation & FAQ (Deutsch)](https://faq.markus-michalski.net/de/osticket/api-key-wildcard)**
 
 The FAQ includes:
 
