@@ -114,17 +114,14 @@ See [LICENSE](./LICENSE) for details.
 ## 💬 Support
 
 For questions or issues, please create an issue on GitHub:
-https://github.com/markus-michalski/osticket-plugins/issues
+
+[Github Issues](https://github.com/markus-michalski/osticket-api-key-wildcard/issues)
 
 Or check the [FAQ](https://faq.markus-michalski.net/en/osticket/api-key-wildcard) for common questions.
 
-## 🤝 Contributing
+## ☕ Support Development
 
 Developed by [Markus Michalski](https://github.com/markus-michalski)
-
-Inspired by the osTicket community's need for flexible API access in development environments.
-
-## ☕ Support Development
 
 This plugin is completely free and open source. If it saves you time or makes your work easier, I'd appreciate a small donation to keep me caffeinated while developing and maintaining this plugin!
 
