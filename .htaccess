@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+
+  RewriteEngine On
+
+  # Enable PATH_INFO for wildcard.php
+  # This is needed so Apache accepts URLs like wildcard.php/tickets.json
+  AcceptPathInfo On
+
+  # Wildcard API endpoint (must come BEFORE the default rule)
+  # Rewrites: /api/wildcard/tickets.json -> /api/wildcard.php/tickets.json
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^wildcard/(.*)$ wildcard.php/$1 [L]
+
+  # Default API endpoint (standard osTicket)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} (.*/api)
+  RewriteRule ^(.*)$ %1/http.php/$1 [L]
+
+</IfModule>
