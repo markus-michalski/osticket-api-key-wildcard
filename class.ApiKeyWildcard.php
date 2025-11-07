@@ -250,7 +250,8 @@ class ApiKeyWildcardConfig extends PluginConfig {
                     'length' => 10
                 ),
                 'default' => '',
-                'visibility' => new VisibilityConstraint(new Q(array('id__gt' => 0)), VisibilityConstraint::HIDDEN)
+                'required' => false,
+                'disabled' => true  // Make it read-only instead of using VisibilityConstraint
             )),
             'log_wildcard_access' => new BooleanField(array(
                 'id' => 'log_wildcard_access',
