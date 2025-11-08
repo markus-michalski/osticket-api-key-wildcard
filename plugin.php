@@ -2,7 +2,7 @@
 
 return array(
     'id' =>             'com.github.osticket:api-key-wildcard',
-    'version' =>        '1.0.1',
+    'version' =>        '1.0.2',
     'name' =>           'API Key Wildcard Support',
     'author' =>         'osTicket Community',
     'description' =>    'Allows API keys with IP address 0.0.0.0 to accept requests from any IP address. Use only in development environments!',

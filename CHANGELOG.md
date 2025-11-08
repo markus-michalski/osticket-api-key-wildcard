@@ -16,6 +16,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Nothing yet
 
+## [1.0.2] - 2025-11-08
+
+### Changed
+- added CC project instructions
+
+### Fixed
+- replace VisibilityConstraint with disabled field for installed_version
+- Remove README-de.md check from CI
+
 ## [1.0.1] - 2025-11-05
 
 ### Changed
