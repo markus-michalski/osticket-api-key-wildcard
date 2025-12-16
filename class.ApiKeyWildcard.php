@@ -104,6 +104,10 @@ class ApiKeyWildcardPlugin extends Plugin
         $htaccessErrors = $htaccess->applyAll();
         $errors = array_merge($errors, $htaccessErrors);
 
+        // Save current version in config
+        $pluginInfo = include(__DIR__ . '/plugin.php');
+        $this->getConfig()->set('installed_version', $pluginInfo['version'] ?? '1.0.0');
+
         return count($errors) === 0 ? true : $errors;
     }
 
