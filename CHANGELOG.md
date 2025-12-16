@@ -16,6 +16,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Nothing yet
 
+## [1.1.0] - 2025-12-16
+
+### Security
+- Fixed XSS vulnerability in wildcard access logging (sanitize remote IP with Format::sanitize + Format::htmlchars)
+
+### Added
+- New PluginInstaller class for file operations (SRP)
+- New HtaccessManager class for .htaccess modifications (SRP)
+- New PluginConstants class to eliminate magic strings
+
+### Changed
+- Refactored main plugin class into modular components
+- Eliminated ~100 lines of code duplication between enable() and performUpdate()
+- Use __DIR__ constant instead of hardcoded plugin paths
+- Config option log_wildcard_access is now properly respected
+- Version bump to 1.1.0
+
+### Fixed
+- disable() now properly removes ALL .htaccess modifications (including MultiViews directive)
+- Error handling improved (no more @ error suppression operator)
+
 ## [1.0.2] - 2025-11-08
 
 ### Changed
