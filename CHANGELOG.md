@@ -16,6 +16,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Nothing yet
 
+## [2.0.0] - 2025-12-16
+
+### Changed
+- added zip-files to gitignore, deleted zip files
+- refactor!: modular architecture with security fixes
+- Auto-sync from Markus-PC
+- Auto-sync from RTY-9618531788
+
 ## [1.1.0] - 2025-12-16
 
 ### Security
